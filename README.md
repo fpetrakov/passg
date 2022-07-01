@@ -1,15 +1,25 @@
 # passg
 
-Simple nodejs app to generate passwords
+Simple Node.js app to generate passwords
 
-## How to use
+## 🚀 How to use
 
+Install dependencies:
+```console
+npm i
 ```
-npm i - to install dependancies
-passg - to generate password and copy it to clipboard
+
+Install this utility globally:
+```console
+npm i -g .
 ```
 
-## Options
+Generate password and copy it to clipboard:
+```console
+passg
+```
+
+## ⚙️ Options
 
 ```bash
 -l, --length [16] # to change length of password, by default is 16
